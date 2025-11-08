@@ -2,11 +2,9 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => {
   const {
-    id,
     title,
     description,
     category,
-    image,
     status,
     tags = [],
     wordCount,
