@@ -38,7 +38,7 @@ const Login = () => {
       const response = await penproAPI.login(credentials);
       
       if (response.success) {
-        // Store token and user info (in a real app, use secure storage)
+        // Store token and user info
         localStorage.setItem('penpro_token', response.token);
         localStorage.setItem('penpro_user', JSON.stringify(response.user));
         
@@ -53,14 +53,6 @@ const Login = () => {
     } finally {
       setLoading(false);
     }
-  };
-
-  // Demo credentials helper
-  const fillDemoCredentials = () => {
-    setCredentials({
-      username: 'biggiewareku',
-      password: '@Faded2002369'
-    });
   };
 
   return (
@@ -128,8 +120,6 @@ const Login = () => {
               )}
             </button>
           </form>
-
-          
 
           <div className="login-footer">
             <p>
