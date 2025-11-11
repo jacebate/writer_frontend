@@ -98,11 +98,11 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <span className="contact-icon">📧</span>
-                <span>writer@penpro.com</span>
+                <span>adrianwareku@gmail.com</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">💬</span>
-                <span>+1 (555) 123-4567</span>
+                <span>+254 708 289982</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">🕒</span>
