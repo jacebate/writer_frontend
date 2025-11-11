@@ -58,8 +58,8 @@ const Login = () => {
   // Demo credentials helper
   const fillDemoCredentials = () => {
     setCredentials({
-      username: 'admin',
-      password: 'penpro123'
+      username: 'biggiewareku',
+      password: '@Faded2002369'
     });
   };
 
@@ -129,19 +129,7 @@ const Login = () => {
             </button>
           </form>
 
-          {/* Demo Helper - Remove in production */}
-          <div className="demo-helper">
-            <button
-              type="button"
-              onClick={fillDemoCredentials}
-              className="btn btn-ghost btn-sm"
-            >
-              Fill Demo Credentials
-            </button>
-            <div className="demo-credentials">
-              <p><strong>Demo:</strong> admin / penpro123</p>
-            </div>
-          </div>
+          
 
           <div className="login-footer">
             <p>
